@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Ajay Kumar ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:#fff;
+      text-align:center;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      border-radius:25px;
+      padding:40px 30px;
+      max-width:420px;
+      width:90%;
+      box-shadow:0 20px 40px rgba(0,0,0,0.2);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float{
+      0%,100%{transform:translateY(0)}
+      50%{transform:translateY(-10px)}
+    }
+
+    h1{
+      font-family:'Great Vibes',cursive;
+      font-size:48px;
+      margin-bottom:10px;
+    }
+
+    h2{
+      font-size:22px;
+      font-weight:400;
+      margin-bottom:20px;
+    }
+
+    .subtitle{
+      font-size:18px;
+      font-style:italic;
+      margin-bottom:25px;
+    }
+
+    p{
+      font-size:16px;
+      line-height:1.6;
+      margin-bottom:25px;
+    }
+
+    .heart{
+      font-size:40px;
+      animation: beat 1s infinite;
+      margin-bottom:20px;
+      display:inline-block;
+    }
+
+    @keyframes beat{
+      0%,100%{transform:scale(1)}
+      50%{transform:scale(1.2)}
+    }
+
+    button{
+      padding:12px 25px;
+      border:none;
+      border-radius:30px;
+      background:#ff4b5c;
+      color:#fff;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    button:hover{
+      background:#ff1f3a;
+      transform:scale(1.05);
+    }
+
+    footer{
+      margin-top:20px;
+      font-size:13px;
+      opacity:0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="heart">❤️</div>
+
+    <h1>Happy Birthday</h1>
+    <h2>Ajay Kumar</h2>
+
+    <div class="subtitle">"Forever Mine, Forever Yours, Forever Us" 💕</div>
+
+    <p>
+      My love, on your special day I just want to remind you how lucky I am to have you in my life. 
+      You are my smile, my strength, my happiness, and my forever. 💖
+      Every moment with you feels magical.
+    </p>
+
+    <p>
+      May your life be filled with love, success, laughter, and endless joy. 
+      I promise to stand by you in every dream and every storm. 🌹
+    </p>
+
+    <button onclick="showMessage()">Click for Surprise 🎁</button>
+
+    <footer>
+      Made with Love 💞
+    </footer>
+  </div>
+
+  <script>
+    function showMessage(){
+      alert("Happy Birthday My Love ❤️🎂\nI Love You More Than Words Can Say 💕");
+    }
+  </script>
+
+</body>
+</html>
